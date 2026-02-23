@@ -1,0 +1,77 @@
+body {
+    min-width: 2000px;
+    min-height: 2000px;
+    background-color: black;
+    color: white;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    overflow: auto; 
+}
+
+#main-title 
+{
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+}
+
+.floating-box 
+{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    width: 400px;
+    height: 200px;
+    border: 3px dashed red;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    font-style: italic;
+}
+
+.secret-text 
+{
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    top: 1000px;
+    left: 500px;
+}
+
+#penny-image 
+{
+    position: absolute;
+    top: 4000px;
+    left: 1000px;
+    width: 2000px;
+    height: 1500px;
+    border: 5px solid red;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.highlight 
+{
+    color: yellow;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#corner-message 
+{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    height: 100px;
+    border: 2px solid white;
+    background-color: darkred;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    opacity: 0.9;
+    z-index: 2;
+}
