@@ -1,0 +1,25 @@
+body 
+{
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(120deg, #2998a0, #1d4aa4fb);
+    overflow: hidden;
+}
+
+h1 
+{
+    margin-top: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.circle 
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
