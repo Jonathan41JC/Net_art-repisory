@@ -1,0 +1,57 @@
+body 
+{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    transition: all 0.6s ease;
+    background: linear-gradient(to right, white, #4facfe);
+}
+
+#container 
+{
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 400px;
+}
+
+body.ai 
+{
+    background: linear-gradient(to right, white, red);
+    font-family: "Courier New", monospace;
+}
+
+body.ai #container 
+{
+    background-color: black;
+    color: lime;
+    box-shadow: 0 0 15px red;
+}
+
+body.ai p 
+{
+    color: cyan;
+}
+.message 
+{
+    position: absolute;
+    color: red;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    pointer-events: none;
+    opacity: 1;
+    animation: fadeOut 2s forwards;
+}
+
+@keyframes fadeOut 
+{
+    to 
+    {
+        opacity: 0;
+    }
+}
